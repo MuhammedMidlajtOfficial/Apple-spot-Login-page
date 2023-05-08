@@ -1,0 +1,127 @@
+
+
+.container{
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sign-up-left{
+    width: 48vw;
+}
+
+.sign-up-left-logo img{
+    width: auto;
+    height: 150px;
+    margin-left: 3%;
+}
+.sign-up-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sign-up-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+input{
+    width: 430px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.sign-up-body div{
+    gap: 5px;
+}
+.sign-up-body label{
+    font-weight:600;
+    font-size: 14px;
+}
+.password-strength{
+    font-size: 12px;
+    display: flex;
+    margin-right: 280px;
+}
+
+.sign-up-btn button{
+    width: 435px;
+    height: 45px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px ;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.google-authentication button{
+    width: 430px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #fff;
+
+}
+.google-authentication button img{
+    width: auto;
+    height: 25px;
+    display: flex;
+    position: absolute;
+    left: 10px;
+}
+.new-sign-up{
+    font-size: 13px;
+    font-weight: lighter;
+    color: gray;
+    margin-top: 20px;
+}
+.or{
+    font-size: smaller;
+}
+.or hr{
+    width: 190px;
+    margin: 8px 15px;
+    background-color: #000;
+}
+
+.sign-up-right{
+    width: 48vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-right img{
+    width: 100%;
+    height: auto;
+}
